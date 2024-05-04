@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Color Nav Bar</title>
+</head>
+<style>
+    :root {
+        --color: rgb(106, 21, 121);
+        --text-color: white;
+        --body-background: rgb(203, 126, 204);
+        --defmargin: 4px;
+        --defborderradius: 100px;
+    }
+
+
+    * {
+        padding: 0;
+        margin: 0;
+
+    }
+
+
+
+    ul li {
+
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        font-weight: bolder;
+        display: inline;
+        list-style: none;
+        margin: var(--defmargin);
+    }
+
+
+    body {
+        background-color: var(--body-background);
+    }
+
+
+
+    .nav {
+        background-color: var(--color);
+        text-align: center;
+        padding: 8px;
+
+    }
+
+
+    ul li a {
+        text-decoration: none;
+        color: var(--text-color)
+    }
+</style>
+
+<body>
+    <div class="nav">
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Categories</a></li>
+            <li><a href="/">Login</a></li>
+        </ul>
+    </div>
+</body>
+
+</html>
